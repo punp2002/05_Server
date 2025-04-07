@@ -26,6 +26,7 @@ public class ELTestServlet2 extends HttpServlet {
 		// - 요청 받은 Servlet과 요청이 위임된 JSP에서 유지되는 객체
 		// 1) 객체에 값(속성) 추가하는 방법
 		//	  범위객체.setAttribute("key", "value");
+		
 		// 2) 객체에서 값(속성) 얻어오는 방법
 		// 	  Object 범위객체.getAttribute("key");
 		// -> 반환형 Object -> 필요 시 다운캐스팅
@@ -64,7 +65,7 @@ public class ELTestServlet2 extends HttpServlet {
 		
 		// ------------------------------------------------------------------
 		// 범위별 우선 순위 확인!!
-		// 좁은 범위가 우선순위가 높다!!
+		// 좁은 범위가 우선순위가 높다!!s
 		// page > repuest > session > application
 		
 		// key 값을 동일하게 하여 범위별 객체에 값 추가
